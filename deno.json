@@ -2,7 +2,7 @@
   "tasks": {
     "fmt": "deno fmt",
     "fmt:check": "deno fmt --check",
-    "lint": "deno lint",
-    "test": "deno test"
+    "lint": "deno lint --permit-no-files",
+    "test": "deno test --permit-no-files"
   }
 }

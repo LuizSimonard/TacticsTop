@@ -1,0 +1,17 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.swo
